@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIMO</title>
+    <link rel="stylesheet" href="MIMO.css">
+</head>
+
+<body>
+    <div class="sidenav" id="mySidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+        <a class="tablink" onclick="openTab('home')">home</a>
+        <a class="tablink" onclick="openTab('artistas')">artistas</a>
+        <a class="tablink" onclick="openTab('movimentos')">movimentos</a>
+        <a class="tablink" onclick="openTab('expo')">exposições</a>
+    </div>
+
+    <div id="main">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">≡</span>
+
+    </div>
+
+    <div id="home" class="tabcontent" style="display: block;">
+        <h1>Destaques do dia</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam enim error voluptatibus voluptatem facilis qui
+            fuga tenetur delectus modi reiciendis harum quis iure, quibusdam deserunt odit maxime sit doloremque
+            molestiae.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam enim error voluptatibus voluptatem facilis qui
+            fuga tenetur delectus modi reiciendis harum quis iure, quibusdam deserunt odit maxime sit doloremque
+            molestiae.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam enim error voluptatibus voluptatem facilis qui
+            fuga tenetur delectus modi reiciendis harum quis iure, quibusdam deserunt odit maxime sit doloremque
+            molestiae.</p>
+    </div>
+
+    <!--*********************************************************************************************************************-->
+
+    <div id="artistas" class="tabcontent">
+        <div class="artistpost">
+            <nav>
+                <input type="text" id="filterInput" placeholder="Filter">
+            </nav>
+
+            <div class="cards">
+
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/5/5b/C%C3%ADcero-Dias.jpg/234px-C%C3%ADcero-Dias.jpg"
+                        alt="">
+                    <h1>cícero dias</h1>
+                    <a class="tablink" onclick="openTab('cicerodias')">saiba mais >></a>
+                </div>
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Flabellina-300x200.jpg" alt="">
+                    <h1>aloísio magalhães</h1>
+                    <a class="tablink" onclick="openTab('aloisiomagalhaes')">saiba mais >></a>
+                </div>
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Flabellina-300x200.jpg" alt="">
+                    <h1>francisco brennand</h1>
+                    <a class="tablink" onclick="openTab('cicerodias')">saiba mais >></a>
+                </div>
+
+            </div>
+
+            <div class="cards">
+
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Flabellina-300x200.jpg" alt="">
+                    <h1>gilvan samico</h1>
+                    <a class="tablink" onclick="openTab('cicerodias')">saiba mais >></a>
+                </div>
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Flabellina-300x200.jpg" alt="">
+                    <h1>abraham palatnik</h1>
+                    <a class="tablink" onclick="openTab('cicerodias')">saiba mais >></a>
+                </div>
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Flabellina-300x200.jpg" alt="">
+                    <h1>lula cardoso ayres</h1>
+                    <a class="tablink" onclick="openTab('cicerodias')">saiba mais >></a>
+                </div>
+
+            </div>
+
+            <div class="cards">
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Flabellina-300x200.jpg" alt="">
+                    <h1>tereza costa rego</h1>
+                    <a class="tablink" onclick="openTab('cicerodias')">saiba mais >></a>
+                </div>
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Flabellina-300x200.jpg" alt="">
+                    <h1>samuel gonçalves</h1>
+                    <a class="tablink" onclick="openTab('cicerodias')">saiba mais >></a>
+                </div>
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Flabellina-300x200.jpg" alt="">
+                    <h1>ronaldo fraga</h1>
+                    <a class="tablink" onclick="openTab('cicerodias')">saiba mais >></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!--*********************************************************************************************************************-->
+
+    <div id="movimentos" class="tabcontent">
+
+
+    </div>
+
+    <div id="expo" class="tabcontent">
+        <h1>exposicao</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam enim error voluptatibus voluptatem facilis qui
+            fuga tenetur delectus modi reiciendis harum quis iure, quibusdam deserunt odit maxime sit doloremque
+            molestiae.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam enim error voluptatibus voluptatem facilis qui
+            fuga tenetur delectus modi reiciendis harum quis iure, quibusdam deserunt odit maxime sit doloremque
+            molestiae.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam enim error voluptatibus voluptatem facilis qui
+            fuga tenetur delectus modi reiciendis harum quis iure, quibusdam deserunt odit maxime sit doloremque
+            molestiae.</p>
+    </div>
+
+    <!--AQUI ESTÃO AS TABCONTENTS COM AS BIOGRAFIAS DOAS ARTISTAS PLASTICOS-->
+
+    <div id="cicerodias" class="tabcontent">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/5/5b/C%C3%ADcero-Dias.jpg/234px-C%C3%ADcero-Dias.jpg"
+            alt="">
+        <h1>cicero dias</h1>
+    </div>
+
+    <div id="aloisiomagalhaes" class="tabcontent">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/5/5b/C%C3%ADcero-Dias.jpg/234px-C%C3%ADcero-Dias.jpg"
+            alt="">
+        <h1>aloisiomagalhaes</h1>
+    </div>
+
+    <div id="cicerodias" class="tabcontent">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/5/5b/C%C3%ADcero-Dias.jpg/234px-C%C3%ADcero-Dias.jpg"
+            alt="">
+        <h1>cicero dias</h1>
+    </div>
+
+    <div id="cicerodias" class="tabcontent">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/5/5b/C%C3%ADcero-Dias.jpg/234px-C%C3%ADcero-Dias.jpg"
+            alt="">
+        <h1>cicero dias</h1>
+    </div>
+
+    <div id="cicerodias" class="tabcontent">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/5/5b/C%C3%ADcero-Dias.jpg/234px-C%C3%ADcero-Dias.jpg"
+            alt="">
+        <h1>cicero dias</h1>
+    </div>
+
+    <div id="cicerodias" class="tabcontent">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/5/5b/C%C3%ADcero-Dias.jpg/234px-C%C3%ADcero-Dias.jpg"
+            alt="">
+        <h1>cicero dias</h1>
+    </div>
+
+    <div id="cicerodias" class="tabcontent">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/5/5b/C%C3%ADcero-Dias.jpg/234px-C%C3%ADcero-Dias.jpg"
+            alt="">
+        <h1>cicero dias</h1>
+    </div>
+
+    <div id="cicerodias" class="tabcontent">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/5/5b/C%C3%ADcero-Dias.jpg/234px-C%C3%ADcero-Dias.jpg"
+            alt="">
+        <h1>cicero dias</h1>
+    </div>
+
+    <div id="cicerodias" class="tabcontent">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/5/5b/C%C3%ADcero-Dias.jpg/234px-C%C3%ADcero-Dias.jpg"
+            alt="">
+        <h1>cicero dias</h1>
+    </div>
+
+    <script src="mimo.js"></script>
+
+
+</body>
+
+</html>
